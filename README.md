@@ -7,7 +7,7 @@ This module help you to verify domain ownership.
 
 ## Usage
 
-    consta domainVerification = require('domain-verification');
+    const domainVerification = require('domain-verification');
     domainVerification.html(domain_url,domain_html_name,hash_value);
     domainVerification.txt(domain_url,domain_key,domain_value);
     domainVerification.metatag(domain_url,domain_key,domain_value);
